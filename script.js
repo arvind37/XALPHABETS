@@ -6,7 +6,7 @@ const keyEle = document.querySelectorAll('.key');
 
 keyEle.forEach((key) => {
   key.addEventListener('click', () => {
-    inputEle.value += key.innerHTML;
+    inputEle.value += key.textContent;
   })
 });
 
