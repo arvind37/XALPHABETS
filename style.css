@@ -31,6 +31,7 @@ p {
   width: 100%;
   border-radius: 5px;
   height: 30px;
+  border: 1px solid;
 }
 
 .btn {
@@ -45,7 +46,7 @@ p {
    background-color: #007bff;
    color: #fff;
    float: right;
-   margin: 20px 0;
+   margin: 40px 0 20px;
 }
 
 .all-keys-btns {
