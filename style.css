@@ -1,0 +1,62 @@
+body {
+  background: gainsboro;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+main {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  height: auto;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+h1, p {
+  text-align: center;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.btn {
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  border: none;
+}
+
+.backbtn {
+   background-color: #007bff;
+   color: #fff;
+   float: right;
+   margin: 20px 0;
+}
+
+.all-keys-btns {
+  clear: both;
+}
+
+.key {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  font-weight: 700;
+}
