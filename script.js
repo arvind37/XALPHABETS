@@ -1,17 +1,17 @@
-const outputText = document.querySelector('.output-text');
-const backbtnEle = document.querySelector('.backbtn');
-const keyEle = document.querySelectorAll('.key');
+const inputEle = document.querySelector('.input');
+const checkbtnEle = document.querySelector('.checkbtn');
+const resultEle = document.querySelector('.result');
 
-keyEle.forEach((key) => {
-  key.addEventListener('click', () => {
-    const value = key.textContent.trim();
-    if (value.length === 1) {
-      outputText.textContent += value;
-    }
-  });
+
+checkbtnEle.addEventListener('click', () => {
+  const value = inputEle.value;
+  console.log(value);
+  if(value % 2 === 0) {
+    console.log('even');
+    resultEle.innerHTML = `The number ${value} is even!`;
+  } else {
+    console.log('odd');
+    resultEle.innerHTML = `Oops, ${value} is odd!`;
+  }
 });
 
-backbtnEle.addEventListener('click', () => {
-  outputText.textContent =
-    outputText.textContent.slice(0, -1);
-});

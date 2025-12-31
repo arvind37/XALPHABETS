@@ -27,11 +27,12 @@ p {
   margin-bottom: 15px;
 }
 
-.output {
+.input {
   width: 100%;
   border-radius: 5px;
   height: 30px;
   border: 1px solid;
+  margin-top: 10px;
 }
 
 .btn {
@@ -42,22 +43,9 @@ p {
   border: none;
 }
 
-.backbtn {
+.checkbtn {
    background-color: #007bff;
    color: #fff;
-   float: right;
-   margin: 40px 0 20px;
-}
-
-.all-keys-btns {
-  clear: both;
-}
-
-.key {
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
-  height: 30px;
-  width: 30px;
-  font-weight: 700;
+   margin: 10px 0;
+   width: 100%;
 }
