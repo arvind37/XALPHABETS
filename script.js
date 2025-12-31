@@ -1,4 +1,4 @@
-const inputEle = document.querySelector('.input');
+const inputEle = document.querySelector('.output');
 const backbtnEle = document.querySelector('.backbtn');
 const beforeSearchEle = document.querySelector('.before-search');
 const keyEle = document.querySelectorAll('.key');
