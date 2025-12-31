@@ -6,12 +6,13 @@ const keyEle = document.querySelectorAll('.key');
 
 keyEle.forEach((key) => {
   key.addEventListener('click', () => {
-    inputEle.value += key.textContent;
-  })
+    const value = key.textContent.trim();
+    if (value.length === 1) {
+      inputEle.value += value;
+    }
+  });
 });
 
 backbtnEle.addEventListener('click', () => {
-  if(inputEle.value.length > 0) {
-    inputEle.value = inputEle.value.slice(0, inputEle.value.length - 1);
-  }
+  inputEle.value = inputEle.value.slice(0, -1);
 });
